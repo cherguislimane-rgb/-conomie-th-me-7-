@@ -243,3 +243,31 @@ body{
   height:auto;
   display:block;
 }
+
+.teacher-box{
+  margin-top: 24px;
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 24px;
+}
+
+.teacher-box h2{
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.teacher-box ul{
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding-left: 20px;
+  line-height: 1.7;
+}
+
+.note{
+  margin-top: 12px;
+  padding: 10px 12px;
+  border-left: 4px solid #2c78ff;
+  background: #f2f7ff;
+  border-radius: 8px;
+}
